@@ -19,67 +19,31 @@
 }
 
 // Mobile
-@mixin page_header_mobile {
+@mixin heading_xl {
+  font-size: 8.8rem;
+  line-height: 1.56;
+  font-weight: 700;
+}
+
+@mixin heading_l {
+  font-size: 4.8rem;
+  line-height: 1.56;
+  font-weight: 700;
+}
+
+@mixin heading_m {
   font-size: 2.4rem;
-  line-height: 3.2rem;
+  line-height: 1.56;
   font-weight: 700;
 }
 
-@mixin section_header_mobile {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  font-weight: 700;
-}
-
-@mixin subheader_mobile {
-  font-size: 1.3rem;
-  line-height: 1.8rem;
-  font-weight: 700;
-}
-
-@mixin body_copy_mobile {
-  font-size: 1.3rem;
-  line-height: 1.8rem;
-  font-weight: 400;
-}
-
-@mixin labels_buttons_mobile {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  font-weight: 700;
+@mixin body_l {
+  font-size: 1.8rem;
+  line-height: 1.56;
+  font-weight: 500;
 }
 
 // Desktop & Tablet - dt = desktop & tablet
-
-@mixin page_header_dt {
-  font-size: 3.3rem;
-  line-height: 4.4rem;
-  font-weight: 700;
-}
-
-@mixin section_header_dt {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  font-weight: 700;
-}
-
-@mixin subheader_dt {
-  font-size: 1.4rem;
-  line-height: 2.2rem;
-  font-weight: 700;
-}
-
-@mixin body_copy_dt {
-  font-size: 1.4rem;
-  line-height: 2.2rem;
-  font-weight: 400;
-}
-
-@mixin labels_buttons_dt {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  font-weight: 700;
-}
 
 // paddings for desktop/tablet
 @mixin padding_before_headline_dt {
@@ -104,5 +68,5 @@
 }
 
 @mixin padding_between_components_mobile {
-  padding: 0 1.6rem;
+  margin: 0 1.8rem;
 }

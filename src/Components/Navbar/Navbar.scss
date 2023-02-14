@@ -1,0 +1,26 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  //   @include padding_between_components_mobile;
+
+  &__title {
+    color: $white;
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: space-between;
+    width: 6.5rem;
+  }
+
+  &__icon {
+    color: $white;
+
+    &:hover {
+      color: $green;
+    }
+  }
+}
