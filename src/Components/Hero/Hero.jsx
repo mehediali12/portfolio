@@ -15,14 +15,14 @@ const Hero = () => {
         </h1>
         <p className='hero__subheading'>Full stack Developer</p>
       </div>
-      <p className='hero__introduction'>
+      {/* <p className='hero__introduction'>
         Based in London, England, I'm a Full Stack Developer that loves turning
         UI/UX designs into fully functioning websites.{" "}
-      </p>
-      {/* <p className='hero__introduction'>
+      </p> */}
+      <p className='hero__introduction'>
         Based in London, England, I'm a passionate and skilled Full stack
         Developer, bringing creativity and expertise to every project.
-      </p> */}
+      </p>
 
       <a href='#contact' className='hero__contact'>
         CONTACT ME
