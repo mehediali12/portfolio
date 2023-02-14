@@ -2,6 +2,7 @@
 @use "../../styles/partials/mixins" as *;
 
 .hero {
+  @include padding_between_components_mobile;
   margin-top: 2.4rem;
   display: flex;
   flex-direction: column;

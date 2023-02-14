@@ -6,7 +6,7 @@ import mehedi from "../../assets/images/mehedi.jpg";
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <section className='hero'>
       <img src={mehedi} alt='Image of Mehedi' className='hero__profileImg' />
       <div className='hero__text-wrapper'>
         <h1 className='hero__title'>
@@ -32,7 +32,7 @@ const Hero = () => {
       <img className='hero__shape2' src={shape1} alt='' />
 
       <div className='hero__line'></div>
-    </div>
+    </section>
   );
 };
 

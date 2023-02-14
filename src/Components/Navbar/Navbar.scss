@@ -4,7 +4,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  //   @include padding_between_components_mobile;
+  @include padding_between_components_mobile;
 
   &__title {
     color: $white;
