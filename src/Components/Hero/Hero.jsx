@@ -1,6 +1,5 @@
 import "./Hero.scss";
 import shape1 from "../../assets/images/shape1.png";
-import shape2 from "../../assets/images/shape2.png";
 import shape3 from "../../assets/images/shape3.png";
 import mehedi from "../../assets/images/mehedi.jpg";
 
