@@ -19,6 +19,13 @@
 }
 
 // Mobile
+@mixin heading_xl_mb {
+  font-size: 4rem;
+  line-height: 1.56;
+  font-weight: 700;
+}
+
+//desktop/tablet
 @mixin heading_xl {
   font-size: 8.8rem;
   line-height: 1.56;
