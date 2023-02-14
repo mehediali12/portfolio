@@ -1,0 +1,18 @@
+@use "./styles/partials/resets";
+@use "./styles/partials/mixins" as *;
+@use "./styles/partials/variables" as *;
+
+// .container {
+//   @include desktop {
+//     display: flex;
+//     @include desktop-width;
+//     padding: 0;
+//   }
+
+//   &__right {
+//     @include desktop {
+//       padding-top: 3.6rem;
+//       border-left: 1px solid $mercury;
+//     }
+//   }
+// }

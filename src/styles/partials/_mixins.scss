@@ -1,0 +1,108 @@
+@use "variables" as *;
+
+// media query mixins
+@mixin tablet {
+  @media screen and (min-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop-breakpoint) {
+    @content;
+  }
+}
+
+@mixin desktop-width {
+  width: 102rem;
+  margin: 0 auto;
+}
+
+// Mobile
+@mixin page_header_mobile {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 700;
+}
+
+@mixin section_header_mobile {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+@mixin subheader_mobile {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+
+@mixin body_copy_mobile {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+@mixin labels_buttons_mobile {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+// Desktop & Tablet - dt = desktop & tablet
+
+@mixin page_header_dt {
+  font-size: 3.3rem;
+  line-height: 4.4rem;
+  font-weight: 700;
+}
+
+@mixin section_header_dt {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+@mixin subheader_dt {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+}
+
+@mixin body_copy_dt {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+
+@mixin labels_buttons_dt {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+// paddings for desktop/tablet
+@mixin padding_before_headline_dt {
+  padding-top: 3.6rem;
+}
+
+@mixin padding_after_headline_dt {
+  padding-bottom: 2.4rem;
+}
+
+@mixin padding_between_components_dt {
+  padding: 0 2.4rem;
+}
+
+// paddings for mobile
+@mixin padding_before_headline_mobile {
+  padding-top: 2.4rem;
+}
+
+@mixin padding_after_headline_mobile {
+  padding-bottom: 2.4rem;
+}
+
+@mixin padding_between_components_mobile {
+  padding: 0 1.6rem;
+}
