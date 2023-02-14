@@ -24,7 +24,11 @@ const Hero = () => {
         Developer, bringing creativity and expertise to every project.
       </p>
 
-      <a href='#contact' className='hero__contact'>
+      <a
+        href='https://www.linkedin.com/in/mehedi-ali-profile/'
+        target={"_blank"}
+        className='hero__contact'
+      >
         CONTACT ME
       </a>
 
