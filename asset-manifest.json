@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3e36cd0a.css",
+    "main.js": "/portfolio/static/js/main.1032bffc.js",
+    "static/media/mehedi.jpg": "/portfolio/static/media/mehedi.edf7c9997dd0cb0f2731.jpg",
+    "static/media/hitmovies.jpg": "/portfolio/static/media/hitmovies.3cfb86d61072d0c3a1c7.jpg",
+    "static/media/project.png": "/portfolio/static/media/project.bceb773f4370bb5420a7.png",
+    "static/media/imgslider.jpg": "/portfolio/static/media/imgslider.3bca2eee08be64cfb62b.jpg",
+    "static/media/gloveup.jpg": "/portfolio/static/media/gloveup.e896651cbc910fea0413.jpg",
+    "static/media/ssneaker.jpg": "/portfolio/static/media/ssneaker.184b5bd5ff6dcf40cdda.jpg",
+    "static/media/drawingapp.jpg": "/portfolio/static/media/drawingapp.23df428b3dca8d80e797.jpg",
+    "static/media/fightinggame.jpg": "/portfolio/static/media/fightinggame.1ba84612314267533d14.jpg",
+    "static/media/SpaceGrotesk-Light.ttf": "/portfolio/static/media/SpaceGrotesk-Light.5c62fc20689f43f24f44.ttf",
+    "static/media/SpaceGrotesk-Medium.ttf": "/portfolio/static/media/SpaceGrotesk-Medium.dff8d806ce24db6ac483.ttf",
+    "static/media/SpaceGrotesk-Regular.ttf": "/portfolio/static/media/SpaceGrotesk-Regular.67fa42510e26f5d4733d.ttf",
+    "static/media/SpaceGrotesk-SemiBold.ttf": "/portfolio/static/media/SpaceGrotesk-SemiBold.b294a56ead28c272c9b1.ttf",
+    "static/media/SpaceGrotesk-Bold.ttf": "/portfolio/static/media/SpaceGrotesk-Bold.96e001703fcc4898de0e.ttf",
+    "static/media/shape3.png": "/portfolio/static/media/shape3.a3f09e8f97b345d38eb2.png",
+    "static/media/shape1.png": "/portfolio/static/media/shape1.633eb310fd3e9b0ef9d9.png",
+    "index.html": "/portfolio/index.html",
+    "main.3e36cd0a.css.map": "/portfolio/static/css/main.3e36cd0a.css.map",
+    "main.1032bffc.js.map": "/portfolio/static/js/main.1032bffc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e36cd0a.css",
+    "static/js/main.1032bffc.js"
+  ]
+}
