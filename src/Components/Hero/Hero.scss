@@ -2,6 +2,7 @@
 @use "../../styles/partials/mixins" as *;
 
 .hero {
+  position: relative;
   @include padding_between_components_mobile;
   margin-top: 2.4rem;
   display: flex;
@@ -9,15 +10,43 @@
   align-items: center;
   text-align: center;
 
+  @include tablet {
+    text-align: start;
+    align-items: start;
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+  }
+
+  @include desktop {
+    @include desktop-width;
+    margin-top: 2.4rem;
+  }
+
+  &__container {
+    @include tablet {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+  }
+
   &__profileImg {
     width: 17.6rem;
     // width: 50%;
+
+    @include tablet {
+      width: 40%;
+    }
   }
 
   &__title {
     font-size: 4rem;
     color: $white;
     font-weight: 500;
+
+    @include desktop {
+      font-size: 7.2rem;
+    }
   }
 
   &__name {
@@ -29,6 +58,10 @@
     font-weight: 300;
     font-size: 2.2rem;
     margin-top: 1rem;
+
+    @include desktop {
+      font-size: 3.2rem;
+    }
   }
 
   &__introduction {
@@ -37,6 +70,13 @@
     font-size: 1.6rem;
     line-height: 1.56;
     text-align: center;
+    @include tablet {
+      text-align: start;
+    }
+
+    @include desktop {
+      font-size: 2.2rem;
+    }
   }
 
   &__contact {
@@ -48,6 +88,10 @@
     border-bottom: 2px solid $green;
     padding-bottom: 1.2rem;
 
+    @include desktop {
+      font-size: 3.2rem;
+    }
+
     &:hover {
       color: $green;
     }
@@ -56,9 +100,10 @@
   &__shape {
     position: absolute;
     height: 20rem;
-    left: -1.5rem;
+    // left: -1.5rem;
+    left: -3rem;
     z-index: -10;
-    top: 12rem;
+    // top: 12rem;
     opacity: 0.3;
   }
 
@@ -67,7 +112,7 @@
     height: 20rem;
     right: 0;
     z-index: -10;
-    bottom: 14rem;
+    bottom: 3rem;
     opacity: 0.2;
   }
 

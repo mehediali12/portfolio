@@ -9,6 +9,10 @@
   background-color: $grey;
   height: 10vh;
 
+  @include desktop {
+    @include desktop-width;
+  }
+
   &__container {
     height: 100%;
     display: flex;
@@ -26,6 +30,7 @@
 
   &__title {
     color: $white;
+    word-spacing: 0.5rem;
   }
 
   &__socials {

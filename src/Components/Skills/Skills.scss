@@ -8,6 +8,10 @@
   justify-content: center;
   margin-bottom: 2.4rem;
 
+  @include desktop {
+    @include desktop-width;
+  }
+
   &__skill1,
   &__skill2 {
     display: flex;

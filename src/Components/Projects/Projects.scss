@@ -9,6 +9,10 @@
     margin-bottom: 2rem;
   }
 
+  @include desktop {
+    @include desktop-width;
+  }
+
   &__heading {
     font-size: 4rem;
     color: $white;

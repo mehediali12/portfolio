@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer__container'>
-        <h1 className='footer__title'>mehediali</h1>
+        <h1 className='footer__title'>mehediali © 2023</h1>
         <div className='footer__socials'>
           <a href='https://github.com/mehediali12' target={"_blank"}>
             <FaGithub className='footer__icon' size={22} />
