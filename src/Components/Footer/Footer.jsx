@@ -1,6 +1,7 @@
 import "./Footer.scss";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import shape from "../../assets/images/shape4.png";
 
 const Footer = () => {
   return (
@@ -17,6 +18,7 @@ const Footer = () => {
           <FaLinkedin className='footer__icon' size={22} />
         </a>
       </div>
+      <img className='footer__shape' src={shape} alt='' />
     </footer>
   );
 };
