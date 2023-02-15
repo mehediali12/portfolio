@@ -2,15 +2,27 @@
 @use "../../styles/partials/mixins" as *;
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   background-color: $grey;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  //   justify-content: space-between;
   height: 10vh;
-  position: relative;
+
+  &__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    @include tablet {
+      flex-direction: row;
+      width: 100%;
+      margin: 0 2.8rem;
+      justify-content: space-between;
+    }
+  }
 
   &__title {
     color: $white;

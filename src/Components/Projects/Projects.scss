@@ -5,15 +5,38 @@
   @include padding_between_components_mobile;
   margin-bottom: 5rem;
 
+  @include tablet {
+    margin-bottom: 2rem;
+  }
+
   &__heading {
     font-size: 4rem;
     color: $white;
     font-weight: 500;
     margin-bottom: 2.8rem;
+
+    @include tablet {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  &__container {
+    @include tablet {
+      display: flex;
+      flex-wrap: wrap;
+      // background-color: tan;
+      justify-content: space-between;
+      margin: 0 1rem;
+    }
   }
 
   &__project {
     margin-bottom: 3.8rem;
+
+    @include tablet {
+      width: 45%;
+    }
   }
 
   &__img {
